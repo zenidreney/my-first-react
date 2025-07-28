@@ -1,8 +1,14 @@
+import Header from "./Header.jsx"
+import Main from "./Main.jsx"
+import Footer from "./Footer.jsx"
+
 function App() {
 
   return (
     <>
-      <p>Some para</p>
+     <Header />
+     <Main />
+     <Footer />
     </>
   )
 }
