@@ -9,11 +9,12 @@
 body {
     background-color: #23252c;
     display: block;
-    margin: 3em auto;
-    width: 320px;
+    margin: 1em auto;
+    width: 90%;
+    max-width: 520px;
+    height: 100svh;
     font-family: Inter, sans-serif;
     color: white;
-    
 }
 
 a {
@@ -30,15 +31,14 @@ header {
     background-color: #1a1b21;
     text-align: center;
     padding-bottom: 1em;
-    
 }
 
 header,
 header img {
- 
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    /*width: 100%;*/
+
+    width: 100%;
 }
 
 header > h1 {
@@ -60,7 +60,7 @@ header > a:first-of-type {
     font-family: Inter;
     font-weight: 400;
     font-style: Regular;
-    font-size: 0.6em;
+    font-size: 0.8em;
     line-height: 1.5;
     padding-block: 1em;
 }
@@ -72,7 +72,7 @@ header > a:first-of-type {
     gap: 1em;
 
     font-weight: 500;
-    font-size: 14px;
+    font-size: 1em;
     background-color: #d1d5db;
     border-radius: 5px;
     line-height: 16px;
@@ -94,22 +94,20 @@ main {
 main > h2 {
     font-weight: 700;
     font-style: Bold;
-    font-size: 1em;
+    font-size: 1.2em;
     line-height: 150%;
     letter-spacing: 0%;
     margin-bottom: 0.3em;
 }
 
 main > p {
-    
-font-weight: 400;
-font-style: Regular;
-font-size: 10.24px;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 0.85em;
 
-line-height: 150%;
-letter-spacing: 0%;
+    line-height: 150%;
+    letter-spacing: 0%;
     margin-bottom: 1.5em;
-
 }
 
 footer {
@@ -127,5 +125,5 @@ footer ul {
 }
 
 footer i {
-    color: #918E9B;
+    color: #918e9b;
 }
