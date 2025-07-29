@@ -3,14 +3,24 @@ function Main() {
         <main>
             <h2>About</h2>
             <p>
-                I am a frontend developer with a particular interest in making things simple and automating daily tasks.
-                I try to keep up with security and best practices, and am always looking for new things to learn.
+                Deniz has been a computer enthusiast since he has discovered his fathers the Machintosh 128k at the early
+                age of 12. From that time he always felt a natural affinity to utilizing computer software.
             </p>
-            <h2>Interests</h2>
+
             <p>
-                Food expert. Music scholar. Reader. Internet fanatic. Bacon buff. Entrepreneur. Travel geek. Pop culture
-                ninja. Coffee fanatic.
+                He graduated in Engineering and complemented his studies with post-grad degrees in Industrial Management
+                and Applied Ethics. After a 4 years career in Environmental Finance Engineering, he went on to create
+                his own business in the wellness sector.
             </p>
+
+            <p>
+                In 2024 he decided to turn one of his passions into profession and enrolled in various Professionl
+                Front-End Developer courses. After only 6 months of commiting in Git he was already{" "}
+                <a href="https://profile.codersrank.io/user/zenidreney/">ranking in top 50</a> of some coding languages.
+            </p>
+            
+            <h2>Interests</h2>
+            <p>Electronic Music Production | Sustainability | Meditation | Linux | Repairing old Macs</p>
         </main>
     );
 }
