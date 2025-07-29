@@ -20,7 +20,7 @@ function Main() {
             </p>
             
             <h2>Interests</h2>
-            <p>Electronic Music Production | Sustainability | Meditation | Linux | Repairing old Macs</p>
+            <p>Coding | Electronic Music Production | Sustainability | Meditation | Linux | Repairing old Macs</p>
         </main>
     );
 }

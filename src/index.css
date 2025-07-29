@@ -34,11 +34,29 @@ header {
 }
 
 header,
+header div,
 header img {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 
     width: 100%;
+}
+
+header div {
+    overflow: hidden;
+    height: 520px;
+}
+
+header span:first-child {
+    font-weight: 400;
+    font-style: italic;
+}
+
+header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(80%);
 }
 
 header > h1 {
@@ -110,6 +128,11 @@ main > p {
     margin-bottom: 1.5em;
 }
 
+main a {
+    color: #aaaa03;
+    display: inline;
+}
+
 footer {
     background-color: #161619;
     padding-block: 1em;
@@ -127,3 +150,16 @@ footer ul {
 footer i {
     color: #918e9b;
 }
+
+/*Hover and Focus States*/
+
+
+a:hover,
+a:focus,
+.email-btn:hover,
+.email-btn:focus {
+    opacity: 50%;
+    color: #adad07;
+}
+
+
