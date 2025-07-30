@@ -1,10 +1,12 @@
 import "bootstrap-icons/font/bootstrap-icons.css";
 
+import profilePic from "./images/profile.jpg";
+
 function Header() {
     return (
         <header>
             <div>
-                <img src="/profile.jpg" />
+                <img src={profilePic} alt="Picture of Deniz."/>
             </div>
             <h1>Deniz Yener, <span>MSc, MA</span></h1>
             <h2>Front-End Developer</h2>
