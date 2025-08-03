@@ -3,7 +3,7 @@ function Main() {
         <main>
             <h2>About</h2>
             <p>
-                Deniz has been a computer enthusiast since he has discovered his fathers the Machintosh 128k at the early
+                Deniz has been a computer enthusiast since he has discovered his fathers the Macintosh 128k at the early
                 age of 12. From that time he always felt a natural affinity to utilizing computer software.
             </p>
 
@@ -18,9 +18,21 @@ function Main() {
                 Front-End Developer courses. After only 6 months of commiting in Git he was already{" "}
                 <a href="https://profile.codersrank.io/user/zenidreney/">ranking in top 50</a> of some coding languages.
             </p>
-            
+
             <h2>Interests</h2>
-            <p>Coding | Electronic Music Production | Sustainability | Meditation | Linux | Repairing old Macs</p>
+            <ul>
+                <li>
+                    <a href="https://zenid.netlify.app">Coding</a> |
+                </li>{" "}
+                <li>
+                    <a href="https://neidanmusic.netlify.app">Electronic Music Production</a> |
+                </li>{" "}
+                <li>
+                    <a href="https://www.qismile.com">Qi-Gong</a> |
+                </li>{" "}
+                <li>Linux |</li>
+                <li> Repairing old Macs |</li>
+            </ul>
         </main>
     );
 }

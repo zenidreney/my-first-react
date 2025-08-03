@@ -63,6 +63,7 @@ header > h1 {
     font-family: Inter;
     font-weight: 700;
     font-size: 1.56em;
+    color: wheat;
 }
 
 header > h2 {
@@ -94,7 +95,7 @@ header > a:first-of-type {
     
     font-weight: 500;
     font-size: 1em;
-    background-color: #d1d5db;
+    background-color: wheat;
     border-radius: 5px;
     line-height: 16px;
     letter-spacing: 0%;
@@ -112,13 +113,23 @@ main {
     padding: 0.8em 7.5% 3em;
 }
 
-main > h2 {
+/*
+main > div {
+    text-align: right;
+}
+*/
+
+main  h2 {
     font-weight: 700;
     font-style: Bold;
     font-size: 1.2em;
     line-height: 150%;
     letter-spacing: 0%;
     margin-bottom: 0.3em;
+}
+
+main h2:nth-of-type(2) {
+    text-align: right;
 }
 
 main > p {
@@ -136,11 +147,53 @@ main a {
     display: inline;
 }
 
+main ul {
+    
+    list-style-type:disc;
+    text-align: right;
+    list-style-position: inside;
+    
+    
+}
+
+main ul li::marker {
+    /*color:white;*/
+    font-size: 1.15em;
+}
+
+main ul li:nth-child(odd)::marker {
+    animation: changeColor 5s ease infinite;
+    
+}
+
+main ul li:nth-child(even)::marker {
+    animation: changeColor 10s ease infinite;
+    
+}
+
+@keyframes changeColor {
+    0% {
+        color:white;
+    }
+    50% {
+        color: #ffb836;
+    }
+    
+    100% {
+        color: #4bf808;
+    }
+}
+
 footer {
-    background-color: #161619;
+    background-color: wheat;
     padding-block: 1em;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+
+.icon {
+    /*background-color: red;*/
+    width: 32px;
 }
 
 footer ul {
@@ -151,7 +204,7 @@ footer ul {
 }
 
 footer i {
-    color: #918e9b;
+    color: black;
 }
 
 /*Hover and Focus States*/

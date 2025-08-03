@@ -1,4 +1,6 @@
 import "bootstrap-icons/font/bootstrap-icons.css";
+import codersRankIcon from "./images/codersrank.svg"
+console.log(codersRankIcon)
 
 function Footer() {
     return (
@@ -6,27 +8,17 @@ function Footer() {
             <ul>
                 <li>
                     <a href="#">
-                        <i class="bi bi-twitter"></i>
+                        <img className="icon" src={codersRankIcon} />
                     </a>
                 </li>
                 <li>
-                    <a href="#">
-                        <i class="bi bi-facebook"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="bi bi-instagram"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="bi bi-linkedin"></i>
+                    <a href="https://linkedin.com/in/zenid">
+                        <i className="bi bi-linkedin"></i>
                     </a>
                 </li>
                    <li>
-                    <a href="#">
-                        <i class="bi bi-github"></i>
+                    <a href="https://github.com/zenidreney/">
+                        <i className="bi bi-github"></i>
                     </a>
                 </li>
             </ul>

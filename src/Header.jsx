@@ -12,7 +12,7 @@ function Header() {
             <h2>Front-End Developer</h2>
             <a href="https://zenid.netlify.app">zenid.netlify.app</a>
             <a className="email-btn" href="mailto:zenid@tuta.io">
-               <p> <i class="bi bi-envelope"></i><span>Email</span></p>
+               <p> <i className="bi bi-envelope"></i><span>Email</span></p>
             </a>
         </header>
     );
